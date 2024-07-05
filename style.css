@@ -1,0 +1,27 @@
+body{
+font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+@keyframes fade-in-out {
+    0% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: rgb(186 230 253);
+    }
+    75%{
+        background-color: rgb(169, 215, 240);
+
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
+  
+  .animate-fade-in-out {
+    animation: fade-in-out 0.4s ease-in-out;
+  }

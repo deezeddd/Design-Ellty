@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="w-96 h-72 ml-20 rounded-md mt-20 border shadow-lg font-extralight text-md">
+        <div class="flex">
+        <div>
+ 
+            <div onclick=animates(id) id="page" class="h-10 p-2 mt-2 mb-2">
+                <div  class="flex justify-around justify-between cursor-pointer ">
+                    <label for="page0" class="w-full cursor-pointer pl-2 ">All pages</label>
+                    <div class="pr-1 ">
+                        <input id="page0" type="checkbox" class=" h-6 w-5 checked:bg-blue-500">
+                    </div>
+                </div>
+            </div>
+
+
+            <ul class="max-h-44 w-[23.9rem] overflow-auto overscroll-auto mt- w-60 border-b border-t overscroll-auto" style="scrollbar-width: none;">
+                <div onclick=animates(id) id="page1" class="h-10 p-2 mt-2">
+                    <div class="flex justify-around justify-between cursor-pointer ">
+                        <label for="page1" class="w-full cursor-pointer pl-2 ">Page 1</label>
+                        <div class="pr-1 ">
+                            <input id="page1" type="checkbox" class=" h-6 w-5 checked:bg-blue-500">
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick=animates(id) id="page2" class="h-10 p-2  ">
+                    <div class="flex justify-around justify-between cursor-pointer ">
+                        <label for="page2" class="w-full cursor-pointer pl-2 ">Page 2</label>
+                        <div class="pr-1 ">
+                            <input id="page2" type="checkbox" class=" h-6 w-5 checked:bg-blue-500">
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick=animates(id) id="page3" class="h-10 p-2  ">
+                    <div class="flex justify-around justify-between cursor-pointer ">
+                        <label for="page3" class="w-full cursor-pointer pl-2 ">Page 3</label>
+                        <div class="pr-1 ">
+                            <input id="page3" type="checkbox" class=" h-6 w-5 checked:bg-blue-500">
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick=animates(id) id="page4" class="h-10 p-2 ">
+                    <div class="flex justify-around justify-between cursor-pointer ">
+                        <label for="page4" class="w-full cursor-pointer pl-2 ">Page 4</label>
+                        <div class="pr-1 ">
+                            <input id="page4" type="checkbox" class=" h-6 w-5 checked:bg-blue-500">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div onclick=animates(id) id="page5" class="h-10 p-2 ">
+                    <div class="flex justify-around justify-between cursor-pointer ">
+                        <label for="page5" class="w-full cursor-pointer pl-2 ">Page 5</label>
+                        <div class="pr-1 ">
+                            <input id="page5" type="checkbox" class=" h-6 w-5 checked:bg-blue-500">
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick=animates(id) id="page6" class="h-10 p-2 ">
+                    <div class="flex justify-around justify-between cursor-pointer ">
+                        <label for="page6" class="w-full cursor-pointer pl-2 ">Page 6</label>
+                        <div class="pr-1 ">
+                            <input id="page6" type="checkbox" class=" h-6 w-5 checked:bg-blue-500">
+                        </div>
+                    </div>
+                </div>
+           </ul>
+        </div>
+    </div>
+
+    <div class="m-1 ml-2 -mr-2 mb-5">
+        <button class="bg-yellow-400 hover:bg-yellow-300 w-[96%] h-8 mt-2 rounded-md button-xs">Done</button>
+    </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
